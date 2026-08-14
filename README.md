@@ -11,30 +11,34 @@
 - Use one lines where code shouldn't ever need to be read again or the code doesn't affect readability by being on one line and improves the rest of the code's readability
 - Arrows or something that looks like syntax shouldn't be used in comments unless needed or can easily be distinguished between code and comment
 
-To show my standard as examples (treat hashtags as spaces/tabs as github is weird):
+To show my standard as examples (treat fullstops as spaces/tabs as github is weird):\
 
 
-###int intPlayer_health;        // obviously player health
+...int intPlayer_health;        // obviously player health\
    
-void** voidActivePointers_list; // supposed to be for a pointer that points to a list of pointers
+void** voidActivePointers_list; // supposed to be for a pointer that points to a list of pointers\
 
-##void voidPlayer_actions ();   // a function
+..void voidPlayer_actions ();   // a function\
   
-###int a89cry798012c91p02;      // an example of one of the randomised names
+...int a89cry798012c91p02;      // an example of one of the randomised names\
 
 
-// Example one of the standard
+// Example one of the standard\
 
-if (cheese == food
+if (cheese == food\
 
-####|| cheese != rock
+....|| cheese != rock\
 
-####&& cheese != vegetable
+....&& cheese != vegetable\
 
-####|| cheese != water) {
+....|| cheese != water) {\
 
-####printf("Bacon");};
+....printf("Bacon");};
 
-// Example of another
+// Example of another\
 
-if (voidActivePointers_list == NULL) {return 0;};
+if (voidActivePointers_list == NULL) {return 0;};\
+\
+\
+\
+Alright it looks worse on github but baiscally || and && are meant to align, so are comments
