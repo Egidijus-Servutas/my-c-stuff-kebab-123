@@ -15,8 +15,11 @@ To show my standard as examples:
 
 
    int intPlayer_health;        // obviously player health
+   
 void** voidActivePointers_list; // supposed to be for a pointer that points to a list of pointers
+
   void voidPlayer_actions ();   // a function
+  
    int a89cry798012c91p02;      // an example of one of the randomised names
 
 // Example one of the standard
