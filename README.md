@@ -24,6 +24,7 @@ void** voidActivePointers_list; // supposed to be for a pointer that points to a
 
 
 // Example one of the standard
+
 if (cheese == food
 
 ####|| cheese != rock
@@ -35,4 +36,5 @@ if (cheese == food
 ####printf("Bacon");};
 
 // Example of another
+
 if (voidActivePointers_list == NULL) {return 0;};
